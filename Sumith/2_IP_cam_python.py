@@ -12,7 +12,7 @@ while True:
     cv2.imshow("Capturing",frame)
     print('Running..')
     
-    'Need to work on the stopping criteria
+    #Need to work on the stopping criteria
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
