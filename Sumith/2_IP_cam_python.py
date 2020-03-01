@@ -30,3 +30,6 @@ while increment < 1000:
 
 cap.release()
 cv2.destroyAllWindows()
+
+# to save the streaming video to a file refer below link
+# https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_video_display/py_video_display.html
