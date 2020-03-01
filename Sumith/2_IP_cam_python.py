@@ -11,7 +11,8 @@ while True:
     print('About to show frame of Video.')
     cv2.imshow("Capturing",frame)
     print('Running..')
-
+    
+    'Need to work on the stopping criteria
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
